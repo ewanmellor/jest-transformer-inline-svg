@@ -9,7 +9,7 @@ function escapeFileName(str: string) {
 }
 
 const transform = (src: string, filePath: string) => {
-  const ext = path.extname(str);
+  const ext = path.extname(filePath);
   if (ext !== '.svg' && ext !== '.inline-svg') {
     return src;
   }
