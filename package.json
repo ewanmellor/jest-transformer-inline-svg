@@ -1,6 +1,6 @@
 {
   "name": "@ewanmellor/jest-transformer-svg",
-  "version": "2.0.990",
+  "version": "2.0.991",
   "description": "Ewan Mellor's version of jest-transformer-svg. This is a fork of https://github.com/Em-Ant/jest-transformer-svg, which in turn is a fork of https://www.npmjs.com/package/jest-svg-transformer. The only meaningful change here is that we support .inline-svg as well as .svg.",
   "main": "lib/index.js",
   "files": [
