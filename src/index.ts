@@ -1,14 +1,16 @@
 const path = require('path');
 
 function escapeFileName(str: string) {
-  return `svg-${path.basename(str, '.svg')}`
+  const ext = path.extname(str);
+  return `svg-${path.basename(str, ext)}`
     .split(/\W+/)
     .map((x) => `${x.charAt(0).toUpperCase()}${x.slice(1)}`)
     .join('');
 }
 
 const transform = (src: string, filePath: string) => {
-  if (path.extname(filePath) !== '.svg') {
+  const ext = path.extname(str);
+  if (ext !== '.svg' && ext !== '.inline-svg') {
     return src;
   }
 

@@ -1,5 +1,10 @@
 # jest-transformer-svg
 
+Ewan Mellor's version of jest-transformer-svg. This is a fork of
+https://github.com/Em-Ant/jest-transformer-svg, which in turn is a fork
+of https://www.npmjs.com/package/jest-svg-transformer. The only meaningful
+change here is that we support .inline-svg as well as .svg.
+
 Transform svg files for for jest+react to de-clutter snapshots.
 
 **NOTE:** cloned from [jest-svg-transformer](https://www.npmjs.com/package/jest-svg-transformer)
